@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-ql-hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphQlHelloWorld/GraphQlHelloWorldWebPart.js",
+          "manifest": "./src/webparts/graphQlHelloWorld/GraphQlHelloWorldWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphQlHelloWorldWebPartStrings": "lib/webparts/graphQlHelloWorld/loc/{locale}.js"
+  }
+}
